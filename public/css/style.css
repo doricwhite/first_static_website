@@ -1,0 +1,61 @@
+/*------ UNIVERSAL APPLICATION ------*/
+html,
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.05rem;
+  background-color: #b5deff;
+  /*background-color: #00adb5;*/
+}
+
+/*- H3 -*/
+h3 {
+  padding: 0.2rem;
+}
+
+/*- PARAGRAPHS -*/
+p {
+  font-size: 1.2rem;
+}
+
+/*- HYPERLINKS -*/
+a {
+  text-decoration: none;
+}
+
+/*------ WEBSITE LOGO TEXT ------*/
+.logo {
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+}
+
+/*------ SOCIAL BUTTONS ------*/
+.icon {
+  color: #0d6efd;
+}
+
+/*------ ABOUT US ------*/
+.about-us h6 {
+  font-size: 1.3rem;
+}
+
+/*------ CONTACT US ------*/
+.contact-us h6 {
+  font-size: 1.3rem;
+}
+
+/*- LINE BESIDE TEXT -*/
+.divider h6 {
+  overflow: hidden;
+}
+
+.divider h6:after {
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 4px solid #f8f0df;
+}

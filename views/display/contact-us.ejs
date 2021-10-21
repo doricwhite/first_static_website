@@ -1,0 +1,73 @@
+<% layout('/layout/template') %>
+<div class="container-fluid p-4 bg-body rounded">
+  <div class="row mt-2">
+    <h3 class="text-center">Contact Us</h3>
+    <p>
+      Regardless of where you are or what time it is, there is a way to reach
+      us!
+    </p>
+
+    <!--1. CALL OR EMAIL-->
+    <div class="contact-us divider">
+      <h6 class="mt-3">Give Us A Call Today</h6>
+      <p>Direct: 724-832-8845</p>
+      <p>Email: storeyline01@comcast.net</p>
+    </div>
+
+    <!--2. LIVECHAT-->
+    <div class="contact-us divider mt-3">
+      <h6>Live Chat</h6>
+      <button class="btn btn-sm btn-primary">
+        <ion-icon name="chatbubbles-outline" size="large"></ion-icon>Live Chat
+        Now
+      </button>
+    </div>
+
+    <!--3. SEND VIA FORM-->
+    <div class="divider mt-5">
+      <h6>Send Us A Note</h6>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-8 offset-2">
+      <form class="row g-3">
+        <!--NAME-->
+        <div class="col-md-6">
+          <label for="fullName" class="form-label">Name</label>
+          <input type="text" class="form-control" id="fullName" />
+        </div>
+        <!--PHONE NUMBER-->
+        <div class="col-md-6">
+          <label for="phoneNumber" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="phoneNumber" />
+        </div>
+        <!--EMAIL ADDRESS-->
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <!--CONFIRM EMAIL ADDRESS-->
+        <div class="col-md-6">
+          <label for="confirmEmail" class="form-label">Confirm Email</label>
+          <input type="email" class="form-control" id="ConfirmEmail" />
+        </div>
+
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            name=""
+            id=""
+            cols="20"
+            rows="8"
+          ></textarea>
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
