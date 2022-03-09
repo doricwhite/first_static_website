@@ -6,6 +6,9 @@ const path = require("path");
 const ejsMate = require("ejs-mate");
 const ExpressError = require("./utils/ExpressError");
 
+// Add Port information for Heroku
+const port = process.env.PORT || 3000;
+
 /* INCLUDING EJS (Embedded JavaScript) AND VIEW */
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -63,6 +66,6 @@ app.use((err, req, res, next) => {
 });
 
 /*LISTEN FOR LOCALHOST PORT */
-app.listen(3000, () => {
+app.listen(port) => {
   console.log("Localhost port open successfully");
 });
