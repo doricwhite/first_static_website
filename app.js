@@ -66,6 +66,6 @@ app.use((err, req, res, next) => {
 });
 
 /*LISTEN FOR LOCALHOST PORT */
-app.listen((port, () => => {
+app.listen(port, () => => {
   console.log("Localhost port open successfully");
 });
